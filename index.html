@@ -52,15 +52,18 @@
     </use>
   </svg>
 </button>
-  <ul class="nav-menu">
+<nav class="nav-menu">
+  <ul class="nav-list-menu">
     <li class="nav-item-menu"><a class="nav-link-menu current" href="./index.html">Studio</a></li>
     <li class="nav-item-menu"><a class="nav-link-menu" href="">Portfolio</a></li>
     <li class="nav-item-menu"><a class="nav-link-menu" href="">Contacts</a></li>
   </ul>
+  </nav>
 <address class="contacts-menu">
   <ul class="contacts-list-menu">
+        <li class="contacts-item-menu"><a href="tel:+110001111111" class="contacts-link-menu current">+11 (000) 111-11-11</a></li>
     <li class="contacts-item-menu"><a href="mailto:info@devstudio.com" class="contacts-link-menu">info@devstudio.com</a></li>
-    <li class="contacts-item-menu"><a href="tel:+110001111111" class="contacts-link-menu">+11 (000) 111-11-11</a></li>
+ 
   </ul>
 </address>
 <div class="social-menu">
@@ -562,6 +565,7 @@
             width="360" 
             class="portfolio-image"
             />
+                </picture>
             <p class="overlay">
               14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
               ·
@@ -643,7 +647,7 @@
       </div>
 
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal-overlay">
         <button class="modal-btn" type="button">
           <svg class="modal-btn-icons" width="8" height="8">
@@ -695,7 +699,9 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
+              <span class="text-span">
               I accept the terms and conditions of the <a class="modal-privacy-link" href="#">Privacy Policy</a>
+          </span>
             </label>
           </div>
           <button class="btn" type="submit">Send</button>
